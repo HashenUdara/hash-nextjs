@@ -36,7 +36,7 @@ export const HighlightGroup: React.FC<HighlightGroupProps> = ({
 
   useEffect(() => {
     onMouseMove();
-  }, [mousePosition]);
+  }, [mousePosition,onMouseMove]);
 
   useEffect(() => {
     initContainer();
