@@ -36,7 +36,7 @@ export const Hero: React.FC = () => {
               <ReactWrapBalancer>Slack is not built for alerts</ReactWrapBalancer>
             </h1>
             <p className="mb-8 text-lg text-zinc-300" data-aos="fade-down" data-aos-delay="200">
-              Don't drown in notifications and keep your workspace focused
+              Dont drown in notifications and keep your workspace focused
             </p>
             <div
               className="flex flex-col items-center max-w-xs mx-auto gap-4 sm:max-w-none  sm:justify-center sm:flex-row sm:inline-flex"

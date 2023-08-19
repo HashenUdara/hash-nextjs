@@ -55,7 +55,7 @@ export const Features: React.FC = () => {
                 {/* Content #1 */}
                 <div>
                   <div className="inline-flex pb-3 font-medium text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-primary-200">
-                    Don't drown in alerts
+                    Dont drown in alerts
                   </div>
                 </div>
                 <h3 className="pb-3 text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-zinc-200/60 via-zinc-200 to-zinc-200/60">
