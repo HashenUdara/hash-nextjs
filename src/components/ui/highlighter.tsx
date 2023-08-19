@@ -49,7 +49,7 @@ export const HighlightGroup: React.FC<HighlightGroupProps> = ({
     }
   };
 
-  const onMouseMove = () => {
+  const onMouseMove = useCallback((event) => {
     if (containerRef.current) {
       const rect = containerRef.current.getBoundingClientRect();
       const { w, h } = containerSize.current;
